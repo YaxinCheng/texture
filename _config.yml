@@ -1,8 +1,8 @@
-title: Yaxin Cheng
+title: Yaxin's blog area
 # author: GitHub User
 email: yaxin.cheng@uwaterloo.ca
 description: > # this means to ignore newlines until "show_exerpts:"
-  My blog page focusing on my learning and experience on tech gears and programming languages
+  Yaxin's blog area focuses on interesting ideas in tech fields, including solutions to programming problems, applications for tech gears.
 show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -16,7 +16,7 @@ texture:
   tagline: The developer you'd expect
   date_format: "%b %-d, %Y"
   style: black
-  showNav: true
+  showNav: false
   showPicker: false
 
   # generate social links in footer
