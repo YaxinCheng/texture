@@ -202,7 +202,7 @@ We are all done here folks! Hooray! Then we just need to set up on your mac.
 
 This is the easiest stage, and you just need to open up the Time Machine preference panel, and click `Select Disk` to select the disk you just set up. 
 
-![macOS-time-machine](https://yaxincheng.github.io/texture/assets/images/time-machine-setup.png)
+![macOS-time-machine](https://yaxincheng.github.io/assets/images/time-machine-setup.png)
 
 You are now good to go! Enjoy a new life with wireless Time Machine.
 
