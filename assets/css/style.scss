@@ -110,3 +110,38 @@
         color: #ddd;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #181a1b;
+    }
+    .post-title, html, body, input, textarea, select, button {
+        color: #e8e6e3;
+    }
+    .highlight {
+        background-color: rgb(30, 33, 34) !important;
+        color: rgb(191, 185, 177) !important;
+        .nb {
+            color: rgb(255, 212, 77);
+        }
+        .nv, .nt {
+            color: rgb(65, 156, 221);
+        }
+        .o, .k, .cp {
+            color: rgb(234, 255, 97);
+        }
+        .s2, .mi {
+            color: rgb(102, 215, 206);
+        }
+        .c {
+            color: rgb(168, 161, 149);
+        }
+        .nn, .py, .p, .err {
+            color: rgb(167, 160, 148);
+        }
+    }
+    code {
+        background-color: transparent;
+    }
+
+}
