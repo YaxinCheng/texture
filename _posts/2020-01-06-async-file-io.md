@@ -27,7 +27,7 @@ With `select`, I was able to wait for several file descriptors, and abort the wa
 In the project, I meant to use `select` as a process interruption method. But the issue is, it is based on the interactions with named pipes. Based on the project design, named pipes are implemented for exchanging information between two processes. Whenever a piece of information arrives the receiver end, it must terminate all its ongoing task to work on the newly arrived job. Again, it is quite straightforward to use `select` here, that I only needed to put the two futures in the `select` block, and that will handle all the cancellation for me. Below is a piece of code to better illustrate the idea:
 
 ```rust
-let mut input_text = input_pipe.receiver().await;
+let mut input_text = input_pipe.receive().await;
 loop {
   ...
   let next_input = input_pipe.receive().fuse();
